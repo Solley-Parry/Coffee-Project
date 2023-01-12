@@ -3,6 +3,7 @@
 /*font-family: 'Rubik Wet Paint', cursive;*/
 * {
     font-family: 'Rubik Mono One', cursive;
+    box-sizing: border-box;
 }
 
 
@@ -61,4 +62,5 @@ body {
 .coffee-card {
     background-color: lightgray;
     text-align: center;
+
 }

@@ -1,6 +1,5 @@
-/*font-family: 'League Gothic', sans-serif;*/
-/*font-family: 'Rubik Dirt', cursive;*/
-/*font-family: 'Rubik Wet Paint', cursive;*/
+
+/* Fonts*/
 * {
     font-family: 'Rubik Mono One', cursive;
     box-sizing: border-box;
@@ -11,14 +10,14 @@ body {
     background-color: #40494f;
 
 }
+/* CSS styling */
 
 .company {
     font-family: 'Rubik Dirt', cursive;
     padding: 10px;
     margin-bottom: 20px;
     text-shadow: 2px 2px 4px #5b5858;
-    /*text-decoration: underline;*/
-}
+    }
 
 .picture-text {
     font-family: 'Rubik Dirt', cursive;
@@ -30,7 +29,6 @@ body {
     border-radius: 8%;
     margin-bottom: 20px;
 }
-
 
 .container-header {
     display: flex;
@@ -52,7 +50,7 @@ body {
 .card-title {
     color: #090909;
     opacity: 0.7;
-    /*text-shadow: 2px 2px 4px #5b5858*/
+    
 }
 
 .card-text {

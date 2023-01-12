@@ -2,7 +2,7 @@
 
 function renderCoffee(coffee) {
     var html = '<div class="card coffee-card shadow-sm m-4 rounded col-3">';
-    // html += '<div>' + coffee.id + '</div>';
+    
     html += '<div class="card-body">' + '<h4 class="card-title">' + coffee.name + '</h4>';
     html += '<h5 class="card-text">' + coffee.roast + ' roast' + '</h5>';
     html += '</div>';
@@ -36,12 +36,10 @@ function updateCoffees(e) {
 }
 
 
-
-
-
 //SEARCH COFFEE INPUT*********************************
 
 let coffeeSearch = document.querySelector("#search-coffee")
+// activate searchCoffees function on key release
 coffeeSearch.addEventListener("keyup", searchCoffees)
 
 
@@ -56,7 +54,7 @@ function searchCoffees() {
         }
         tbody.innerHTML = renderCoffees(filteredCoffees);
     });
-//end SEARCH COFFEE INPUT*********************************
+//End SEARCH COFFEE INPUT*********************************
 
 
 //    UTILIZE RENDER COFFEES TO CREATE THE HTML FOR THE NEW COFFEE LIST

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head>                       <!------Required Meta Tags-------->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Cowabunga Coffee</title>
@@ -11,9 +11,15 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+                           <!--------Nav Bar--------->
+
 <nav class="navbar navbar-expand-md sticky-top bg-dark shadow p-3 mb-3 rounded">
     <img src="./images/CoffeeRoastScale_Desktop_Update11.30_3000x.webp" class="img-fluid max-width: 100% height: auto">
 </nav>
+                           <!------End Nav Bar------->
+
+                           <!---- Coffee Logo Images-->
+
 <div class="container container-header d-flex justify-content-center">
     <h1 class="company display-4">Cowabunga Coffee Company</h1>
 </div>
@@ -29,7 +35,9 @@
         <img src="./images/download2.jpg" class="images image2 shadow">
     </div>
 
-</div>
+</div>                    <!--- End Coffee Logo Images ------>
+
+                          <!---Roast Selection Dropdown-->
 
 <div class="row form-container d-flex">
     <form class="d-flex justify-content-evenly">
@@ -41,23 +49,27 @@
                 <option>medium</option>
                 <option>dark</option>
             </select>
-            <!--            <input id="submit" type="submit"/>-->
             <button type="submit" class="btn btn-light" id="submit">Submit</button>
-        </div>
+
+        </div>            <!-----End  Roast Selection---------->
+
+
+                          <!----Coffee Search Form------------->
 
         <div class="d-flex coffee-search">
             <input id="search-coffee" type="text" class="input-coffee form-control" placeholder="search coffee"/>
             <button type="submit" id="submit-coffee-search" class="submit-search btn btn-light">Search</button>
         </div>
-    </form>
+    </form>                <!-------End Coffee Search---------->
 
-</div>
+</div>                      <!--- Coffee Cards Display------->
 <div class="d-flex">
     <div id="coffees" class="row justify-content-center"></div>
 </div>
 
+                            <!----End Coffee Cards Display-->
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 
-<script src="main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
